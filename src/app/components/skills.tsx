@@ -2,7 +2,7 @@ import React from 'react';
 import { FaHtml5, FaCss3Alt, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss, SiDialogflow } from "react-icons/si";
+import { SiTailwindcss, SiDialogflow, SiChatbot } from "react-icons/si";
 import { TbMessageChatbotFilled } from "react-icons/tb";
 import './skills.css'
 
@@ -120,6 +120,32 @@ const Skill = () => {
               <p className="progress-percentage">80%</p>
             </div>
             {/* Kommunicate Skill */}
+            <div className="skill-card">
+              <div className="skill-header">
+                <div className="icon-container kommunicate-icon">
+                  <SiChatbot />
+                </div>
+                <h2 className="skill-name">Kommunicate</h2>
+              </div>
+              <div className="progress-bar">
+                <div className="progress kommunicate-progress"></div>
+              </div>
+              <p className="progress-percentage">80%</p>
+            </div>
+
+            {/* TypeScript Skill */}
+            <div className="skill-card">
+              <div className="skill-header">
+                <div className="icon-container ts-icon">
+                  <BiLogoTypescript />
+                </div>
+                <h2 className="skill-name">Nextjs</h2>
+              </div>
+              <div className="progress-bar">
+                <div className="progress ts-progress"></div>
+              </div>
+              <p className="progress-percentage">70%</p>
+            </div>
            
           </div>
         </div>
