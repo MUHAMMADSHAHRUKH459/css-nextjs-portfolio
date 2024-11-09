@@ -1,0 +1,80 @@
+/* footer.css */
+
+/* Container for footer */
+.footer-container {
+    background-color: rgb(17, 24, 43);; /* Custom background color (dark) */
+    padding: 1rem 0; /* Reduced padding to reduce height */
+  }
+  
+  /* Main footer styling */
+  .footer {
+    text-align: center;
+    color: #f3fe; /* Light text color */
+    max-width: 1000px; /* Reduced max-width to reduce footer width */
+    margin: 0 auto; /* Center the footer */
+  }
+  
+  /* Footer content (logo and title) */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem; /* Reduced gap between elements */
+    padding: 0.5rem; /* Added some padding to reduce height */
+  }
+  
+  /* Logo container and title styling */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo-img {
+    border-radius: 50%;
+    width: 60px; /* Reduced logo size */
+    height: 60px; /* Reduced logo size */
+  }
+  
+  .footer-title {
+    font-size: 1.2rem; /* Reduced font size for the title */
+    color: #ecf0f1; /* Light color for the title */
+    font-weight: 600;
+  }
+  
+  /* Footer text */
+  .footer-text {
+    font-size: 0.875rem;
+    color: #f3fe;
+    margin-top: 0.5rem;
+  }
+  
+  /* Social icons styling */
+  .footer-social-links {
+    display: flex;
+    gap: 1.25rem; /* Reduced gap between social icons */
+    justify-content: center;
+    margin-top: 0.5rem; /* Reduced margin-top to decrease height */
+  }
+  
+  /* Social icon styling */
+  .social-icon {
+    color: #ecf0f1; /* Light text color for icons */
+    font-size: 1.25rem; /* Reduced icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #3498db; /* Hover color (blue) */
+  }
+  
+  /* Responsive design: Center everything for small screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  

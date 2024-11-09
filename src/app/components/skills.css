@@ -1,0 +1,103 @@
+/* Global section styling */
+.skills-section {
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .title-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .skills-subtitle {
+    color: #dff707;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #eeea1a;
+  }
+  
+  /* Skills list container */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill-card {
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .skill-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Progress bar styling */
+  .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .progress-percentage {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+  }
+  
+  /* Individual progress widths */
+  .html-progress { width: 100%; background-color: #f3fe; }
+  .css-progress { width: 95%; background-color: #1e90ff; }
+  .js-progress { width: 80%; background-color: #f3fe; }
+  .ts-progress { width: 90%; background-color: #1e90ff; }
+  .tailwind-progress { width: 85%; background-color: #f3fe; }
+  .python-progress { width: 90%; background-color: #1e90ff; }
+  .chatbot-progress { width: 100%; background-color: #f3fe; }
+  .dialogflow-progress { width: 80%; background-color: #1e90ff; }
+  .kommunicate-progress { width: 80%; background-color: #f3fe; }
+  
